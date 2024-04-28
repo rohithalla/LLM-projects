@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main{
+    /* primary-color: #040F29; */
+    background-color: #040F29;
+    /* secondary-background-color: #262730;
+    secondary-background-color: #F0F2F6; */
+    /* text-color: #fafafa; */
+    font: "Source Sans Pro", sans-serif;
+}
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+[data-testid="stSidebar"] {
+    border-right: 1px solid #FFFFFF33;
+}
+
+/* Running Man Animation */
+.st-emotion-cache-1u4fkce{
+    visibility: hidden;
+}
+
+li {
+    margin-bottom: 18px;
+}
+
+a {
+    background: linear-gradient(90deg, rgba(22, 46, 128, 0.3) 0%, rgba(217, 217, 217, 0) 90.34%);
+    border-radius: 8px !important;
+    height: 54px;
+}
+
+a>span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+[data-testid="stForm"] {
+    border: none;
+    padding: 5px;
+}
+
+[data-testid="column"]{
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    padding: 15px;
+    background-color: transparent;
+}
+
+/* [data-testid="stCode"]{
+    background-color: transparent;
+} */
+
+/* Buttons for Qualify Page */
+/* [data-testid="stVerticalBlock"]
+[data-testid="stHorizontalBlock"]
+[data-testid="column"]
+[data-testid="column"]{
+    background-color: transparent;
+    width: min-content;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* Right Side Column */
+.st-emotion-cache-j5r0tf{
+    /* background-color: rgba(255, 255, 255, 0.862); */
+    border: 1px solid white;
+    height: min-content;
+    background-color: #030c1e93;
+}
+
+/* [data-baseweb="select"] {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+} */
+
+
+textarea {
+    /* border: 1px solid rgba(238, 238, 238, 0.15) !important; */
+    border-radius: 15px;
+    background-color: #577bbe63 ;
+    color: #fff
+
+}
+
+header{
+    background-color: green;
+}
+
+footer {
+
+    visibility: hidden;
+
+}
+
+footer:after {
+    font-size: 12px;
+    text-align: justify;
+    content: '''This tool is a proprietary tool of Egen''';
+    visibility: visible;
+    display: block;
+    position: center;
+    padding: 5px;
+    top: 2px;
+    color: #fff
+}
+
+.uploadedFileName {
+    color: #fff
+}
+
+.stApp {
+    color: #fff
+}

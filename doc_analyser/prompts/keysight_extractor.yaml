@@ -1,0 +1,19 @@
+_type: prompt
+input_variables:
+- rfp_input
+output_parser: null
+partial_variables: {}
+template: >
+  Directive:
+  Your job is to extract key points from the given document content below. Each point should have numbering and end with "\n".
+
+  Document:
+  {rfp_input}
+
+  Key Points:
+  1)
+  2)
+  and so on. 
+
+template_format: f-string
+validate_template: false
